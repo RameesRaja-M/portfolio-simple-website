@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__contact {
+    background-color: yellowgreen;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.section-one__name {
+    font-size: 60px;
+
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 10px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc,
+.section-five__desc {
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a {
+    color: yellowgreen;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    vertical-align: top;
+    background-color: yellowgreen;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.section-four {
+    vertical-align: top;
+    background-color: #D2FF72;
+    color: black;
+    padding: 20px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.section-three__desc li{
+    padding: 10px;
+}
+.section-four__desc li{
+padding: 5px;
+}
+.contact-form{
+    margin-top: 20px;
+
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 20px;
+}
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid yellowgreen 2px;
+}
+.contact-form__textarea{
+    padding: 10px;
+    border: none;
+    border : solid yellowgreen 2px;
+}
+.contact-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+}
